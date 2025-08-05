@@ -4,7 +4,7 @@
 
 ## 📜 Abstract
 
-![Cover Image](./Final_PPt/espcn_cover.jpeg)
+![Cover Image](Final_PPt/slide_1_img_2.jpeg)
 
 - **Problem Statement:** Super-resolution is crucial in enhancing image quality for applications like:
   - Medical imaging
@@ -24,7 +24,7 @@
 
 ## 1. 📌 Introduction
 
-![Intro Illustration](./Final_PPt/introduction_methods_comparison.jpeg)
+![Intro Illustration](Final_PPt/slide_2_img_1.jpeg)
 
 - **Existing Methods:**
   - Bicubic/Bilinear → Simple but low-quality
@@ -39,7 +39,7 @@
 
 ## 2. 📂 Dataset – DIV2K (from Kaggle)
 
-![DIV2K Sample](./Final_PPt/div2k_dataset_sample.jpeg)
+![DIV2K Sample](Final_PPt/slide_3_img_1.jpeg)
 
 - Large, diverse collection of 2K resolution RGB images
 - **Training set:** 800 HR images → LR pairs for ×2, ×3, ×4
@@ -66,7 +66,7 @@
 
 ### 🧠 ESPCN Model Architecture
 
-![ESPCN Architecture](./Final_PPt/espcn_model_architecture.jpeg)
+![ESPCN Architecture](Final_PPt/slide_6_img_1.jpeg)
 
 - Architecture:
   - `Input → Conv (ReLU) → Conv (ReLU) → Conv → Pixel Shuffle`
@@ -104,13 +104,13 @@
 
 ### ▶️ Without Augmentation
 
-![Results Without Augmentation](./Final_PPt/results_no_augmentation.png)
+![Results Without Augmentation](Final_PPt/slide_9_img_1.png)
 
 ---
 
 ### ▶️ With Augmentation
   
-![Results With Augmentation](./Final_PPt/results_with_augmentation.png)
+![Results With Augmentation 2](Final_PPt/slide_10_img_2.png)
 
 ---
 
