@@ -17,7 +17,7 @@
 
 - **Our Approach:**
   - We implement Efficient ESPCN, balancing performance and speed.
-  - Compare results across different scaling factors (2x, 3x, 4x).
+  - Compare results across different scaling factors (2x, 4x, 8x).
   - Compare with and without augmentation for scale=2.
 
 ---
@@ -42,7 +42,7 @@
 ![DIV2K Sample](Final_PPt/slide_3_img_1.jpeg)
 
 - Large, diverse collection of 2K resolution RGB images
-- **Training set:** 800 HR images → LR pairs for ×2, ×3, ×4
+- **Training set:** 800 HR images → LR pairs for ×2, ×4, ×8
 - **Validation set:** 100 HR images
 - **Test set:** 100 diverse images (HR released post-challenge)
 - In this project: Only training HR images used to synthesize LR-HR pairs for SR model training.
@@ -71,7 +71,7 @@
 - Architecture:
   - `Input → Conv (ReLU) → Conv (ReLU) → Conv → Pixel Shuffle`
 - Uses depth-to-space rearrangement for efficient upscaling
-- Trained separately for scale=2, 3, 4
+- Trained separately for scale=2, 4, 8
 - Optimized using Adam
 - Loss Function: Mean Squared Error (MSE)
 
